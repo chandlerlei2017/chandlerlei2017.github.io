@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.css';
+import './Home.scss';
 
 function Home() {
   return (
@@ -7,7 +7,7 @@ function Home() {
       <div className="hero-image">
         <div className="hero-text">
           <h1>Chandler Lei</h1>
-          <p>Pushing the Limits</p>
+          <p>Pushing Limits</p>
         </div>
       </div>
 
@@ -25,18 +25,18 @@ function Home() {
         <p>These are my current projects. Learn more...</p>
         <div className = "row">
           <div className="col-sm-4">
-            <div className="form white p-3 ml-3 mr-3">
+            <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
               <p>Gmail Chrome Extension</p>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="form white p-3 ml-3 mr-3">
+            <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
               <p>Quizit</p><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="form white p-3 ml-3 mr-3">
+            <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
               <p>Light Tricks</p>
             </div>
           </div>
@@ -48,18 +48,18 @@ function Home() {
         <p>My work expreience. Learn more...</p>
         <div className = "row">
           <div className="col-sm-4">
-            <div className="form blue p-3 ml-3 mr-3">
+            <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
               <p>Lending Loop - Software Developer</p>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="form blue p-3 ml-3 mr-3">
+            <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
               <p>Bank of Montreal - Infrastructure Engineer</p><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="form blue p-3 ml-3 mr-3">
+            <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
               <p>Quinn Dressel Associates - Engineering Student</p>
             </div>
           </div>

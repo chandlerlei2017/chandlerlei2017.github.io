@@ -15,7 +15,8 @@ function About() {
         <p>This will be a paragraph about me. What I'm like etc. Def larger text I reckon</p>
       </div>
       <div className="p-5 green">
-        <h2 className="mb-5"> Some things I'm good at!</h2>
+        <h2> Some things I'm good at!</h2>
+        <h5 className="mb-5">Everyone's good at something, these are some of the things i'm good at...</h5>
         <div className="row">
           <div className="col-sm-4">
             <h5>Languages</h5>

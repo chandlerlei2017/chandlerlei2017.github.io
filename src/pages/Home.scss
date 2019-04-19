@@ -1,3 +1,8 @@
+$g-transition-timing:                                       .3s !default;
+$g-transition-timing-sm:                                    .2s !default;
+$g-transition-timing-md:                                    .4s !default;
+$g-transition-function:                                     ease-in-out !default;
+
 .hero-image {
   height: 600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/temp-banner.jpg");
@@ -32,4 +37,13 @@
   height: 100%;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.transition-3d-hover {
+  transition: all $g-transition-timing-sm $g-transition-function;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-3px);
+  }
 }

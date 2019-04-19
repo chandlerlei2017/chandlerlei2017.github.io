@@ -6,7 +6,7 @@ function Experience() {
       <div className="hero-image">
         <div className="hero-text">
           <h1>What have I done so far?</h1>
-          <p>Temp description</p>
+          <p>From personal to academic and professional projects. Here is my coding experience along with some of the work I am most proud of!</p>
         </div>
       </div>
       <div className="p-5 white">
