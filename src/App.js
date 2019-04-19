@@ -12,17 +12,11 @@ function Homepage() {
   return (
     <Router>
         <div className="row text-center m-3">
-          <div className="col-sm-3">
-            <Link to="/">Home</Link>
-          </div>
-          <div className="col-sm-3">
-            <Link to="/about">About Me</Link>
-          </div>
-          <div className="col-sm-3">
-            <Link to="/projects">Projects</Link>
-          </div>
-          <div className="col-sm-3">
-            <Link to="/contact">Contact Me</Link>
+          <div className="col-sm-12 text-right">
+            <Link to="/" className="ml-2 mr-2">Home</Link>
+            <Link to="/about" className="ml-2 mr-2">About Me</Link>
+            <Link to="/projects" className="ml-2 mr-2">Projects</Link>
+            <Link to="/contact" className="ml-2 mr-2">Contact Me</Link>
           </div>
 
           <hr />

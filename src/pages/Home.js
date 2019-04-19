@@ -23,11 +23,11 @@ function Home() {
       </div>
       <div className = "text-center pt-5 pb-5 white">
         <h2>Work Experience</h2>
-        <p>These are my current projects. Learn more...</p><br/><br/><br/><br/>
+        <p>My work expreience. Learn more...</p><br/><br/><br/><br/>
       </div>
       <div className = "text-center pt-5 pb-5">
         <h2>Contact Me</h2>
-        <p>Questions? or just want to chat? Contact me here</p><br/><br/><br/><br/>
+        <p>Questions? or just want to chat? Contact me...</p><br/><br/><br/><br/>
       </div>
     </div>
   );
