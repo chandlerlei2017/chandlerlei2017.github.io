@@ -1,3 +1,18 @@
 .header {
   background: #F7F7F7 !important;
 }
+
+.header-link {
+  color: #828282;
+  text-decoration: none !important;
+  font-weight: 450;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem;
+  border-bottom: 2px solid #F7F7F7;
+}
+
+.header-link:hover {
+  color: #003853;
+  border-bottom: 2px solid #003853;
+}

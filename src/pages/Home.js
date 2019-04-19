@@ -55,7 +55,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link to="/experience" className="btn btn-primary">Experience</Link>
+        <Link to="/experience" className="btn btn-primary">Learn More</Link>
       </div>
 
       <div className = "text-center p-5 white">
@@ -79,7 +79,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link to="/experience" className="btn btn-primary">Experience</Link>
+        <Link to="/experience" className="btn btn-primary">Learn More</Link>
       </div>
 
       <div className = "text-center p-5">
