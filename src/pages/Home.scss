@@ -4,7 +4,7 @@ $g-transition-timing-md:                                    .4s !default;
 $g-transition-function:                                     ease-in-out !default;
 
 .hero-image {
-  height: 550px;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/temp-banner.jpg");
 
   background-position: center;
@@ -55,7 +55,7 @@ $g-transition-function:                                     ease-in-out !default
   }
 }
 
-.btn-primary {
+.btn-primary-blue {
   background: none !important;
   color: #003853 !important;
   border-radius: 0px !important;
@@ -64,7 +64,21 @@ $g-transition-function:                                     ease-in-out !default
   padding-right: 2rem !important;
 }
 
-.btn-primary:hover {
+.btn-primary-blue:hover {
   background: #003853 !important;
   color: white !important;
+}
+
+.btn-primary-white {
+  background: none !important;
+  color: white !important;
+  border-radius: 0px !important;
+  border-color: white !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.btn-primary-white:hover {
+  background: white !important;
+  color: black !important;
 }

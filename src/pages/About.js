@@ -24,7 +24,6 @@ function About() {
             <h5 className="mb-3">Program: Computer Engineering</h5>
             <h5 className="mb-3">Year: 2A</h5>
             <p>Visit my about page to learn more about my interests and passions. </p>
-            <Link to="/about" className="btn btn-primary">About Me</Link>
           </div>
         </div>
       </div>
