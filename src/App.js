@@ -11,26 +11,28 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function Homepage() {
   return (
     <Router>
-      <div class="row text-center">
-        <div class="col-sm-3">
-          <Link to="/">Home</Link>
-        </div>
-        <div class="col-sm-3">
-          <Link to="/projects">Projects</Link>
-        </div>
-        <div class="col-sm-3">
-          <Link to="/about">About Me</Link>
-        </div>
-        <div class="col-sm-3">
-          <Link to="/contact">Contact Me</Link>
-        </div>
+      <div className="col-sm-10 offset-sm-1">
+        <div className="row text-center mt-3 mb-3">
+          <div className="col-sm-3">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="col-sm-3">
+            <Link to="/projects">Projects</Link>
+          </div>
+          <div className="col-sm-3">
+            <Link to="/about">About Me</Link>
+          </div>
+          <div className="col-sm-3">
+            <Link to="/contact">Contact Me</Link>
+          </div>
 
-        <hr />
+          <hr />
+        </div>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
       </div>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/projects" component={Projects} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
     </Router>
   );
 }
