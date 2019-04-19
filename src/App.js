@@ -11,16 +11,15 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function Homepage() {
   return (
     <Router>
-      <div className="col-sm-10 offset-sm-1">
-        <div className="row text-center mt-3 mb-3">
+        <div className="row text-center m-3">
           <div className="col-sm-3">
             <Link to="/">Home</Link>
           </div>
           <div className="col-sm-3">
-            <Link to="/projects">Projects</Link>
+            <Link to="/about">About Me</Link>
           </div>
           <div className="col-sm-3">
-            <Link to="/about">About Me</Link>
+            <Link to="/projects">Projects</Link>
           </div>
           <div className="col-sm-3">
             <Link to="/contact">Contact Me</Link>
@@ -32,7 +31,6 @@ function Homepage() {
         <Route exact path="/projects" component={Projects} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-      </div>
     </Router>
   );
 }
