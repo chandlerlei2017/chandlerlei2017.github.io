@@ -21,6 +21,10 @@ $g-transition-function:                                     ease-in-out !default
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
+  h1 {
+    color: white;
+  }
 }
 
 .white {
