@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Home.scss';
-import image from '../assets/temp_about.jpg'
 
 function Home() {
   return (
@@ -13,25 +12,8 @@ function Home() {
         </div>
       </div>
 
-      <div className = "text-center p-5">
+      <div className = "text-center p-5 white">
         <p>"It does not matter how slowly you go as long as you do not stop." Me: 2018</p>
-      </div>
-
-      <div className = "p-5 white">
-        <h2>About Me</h2>
-        <div className="row">
-          <div className="col-sm-4 p-3">
-            <img src={image} className="img-fluid rounded"/>
-          </div>
-          <div className="col-sm-8 mt-3">
-            <h5 className="mb-3">Name: Chandler Lei</h5>
-            <h5 className="mb-3">University: University of Waterloo</h5>
-            <h5 className="mb-3">Program: Computer Engineering</h5>
-            <h5 className="mb-3">Year: 2A</h5>
-            <p>Visit my about page to learn more about my interests and passions. </p>
-            <Link to="/about" className="btn btn-primary">About Me</Link>
-          </div>
-        </div>
       </div>
 
       <div className = "text-center p-5">
@@ -84,7 +66,7 @@ function Home() {
 
       <div className = "text-center p-5">
         <h2>Contact Me</h2>
-        <p>Questions? or just want to chat? Contact me...</p><br/><br/><br/><br/>
+        <p className="mb-5">Questions? or just want to chat? Contact me...</p>
         <Link to="/contact" className="btn btn-primary">Contact Me</Link>
       </div>
     </div>
