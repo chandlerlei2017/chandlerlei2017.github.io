@@ -14,14 +14,14 @@ function Homepage() {
           <div className="col-sm-12 text-right">
             <Link to="/" className="ml-2 mr-2">Home</Link>
             <Link to="/about" className="ml-2 mr-2">About Me</Link>
-            <Link to="/projects" className="ml-2 mr-2">Experience</Link>
+            <Link to="/experience" className="ml-2 mr-2">Experience</Link>
             <Link to="/contact" className="ml-2 mr-2">Contact Me</Link>
           </div>
 
           <hr />
         </div>
         <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={Experience} />
+        <Route exact path="/experience" component={Experience} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
     </Router>

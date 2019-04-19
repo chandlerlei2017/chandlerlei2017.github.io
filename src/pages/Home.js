@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Home.scss';
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
       <div className = "text-center p-5 white">
         <h2>About Me</h2>
         <p>Who am I? What Do I like to do? Learn More...</p><br/><br/><br/><br/>
+        <Link to="/about" className="ml-2 mr-2">About Me</Link>
       </div>
 
       <div className = "text-center p-5">
@@ -41,8 +43,9 @@ function Home() {
             </div>
           </div>
         </div>
-
+        <Link to="/experience" className="ml-2 mr-2">Experience</Link>
       </div>
+
       <div className = "text-center p-5 white">
         <h2>Work Experience</h2>
         <p>My work expreience. Learn more...</p>
@@ -64,14 +67,14 @@ function Home() {
             </div>
           </div>
         </div>
-
+        <Link to="/experience" className="ml-2 mr-2">Experience</Link>
       </div>
 
       <div className = "text-center p-5">
         <h2>Contact Me</h2>
         <p>Questions? or just want to chat? Contact me...</p><br/><br/><br/><br/>
+        <Link to="/contact" className="ml-2 mr-2">Contact Me</Link>
       </div>
-
     </div>
   );
 }
