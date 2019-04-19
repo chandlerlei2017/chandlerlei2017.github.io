@@ -24,23 +24,18 @@ function Home() {
         <h2>Projects</h2>
         <p>These are my current projects. Learn more...</p>
         <div className = "row">
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p>
             </div>
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p><br/>
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
-          <div className="col-sm-3">
-            <div className="form white p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
-            </div>
-          </div>
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p>
             </div>
@@ -52,23 +47,18 @@ function Home() {
         <h2>Work Experience</h2>
         <p>My work expreience. Learn more...</p>
         <div className = "row">
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p>
             </div>
           </div>
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p><br/>
-              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
-          <div className="col-sm-3">
-            <div className="form blue p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
-            </div>
-          </div>
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
               <p>This is a test to seee how this element will look </p>
             </div>
