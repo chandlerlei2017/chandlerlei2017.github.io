@@ -30,7 +30,10 @@ $g-transition-function:                                     ease-in-out !default
 
 .blue {
   background: #003853;
-  color: white;
+
+  h5 {
+    color: white;
+  }
 }
 
 .form {
@@ -46,4 +49,18 @@ $g-transition-function:                                     ease-in-out !default
   &:focus {
     transform: translateY(-3px);
   }
+}
+
+.btn-primary {
+  background: none !important;
+  color: #003853 !important;
+  border-radius: 0px !important;
+  border-color: #003853 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.btn-primary:hover {
+  background: #003853 !important;
+  color: white !important;
 }

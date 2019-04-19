@@ -28,8 +28,8 @@ function Home() {
             <h5 className="mb-3">University: University of Waterloo</h5>
             <h5 className="mb-3">Program: Computer Engineering</h5>
             <h5 className="mb-3">Year: 2A</h5>
-            <p>Want to learn more about me? What I am like? What my passions are? </p>
-            <Link to="/about">About Me</Link>
+            <p>Visit my about page to learn more about my interests and passions. </p>
+            <Link to="/about" className="btn btn-primary">About Me</Link>
           </div>
         </div>
       </div>
@@ -40,22 +40,22 @@ function Home() {
         <div className = "row mb-5">
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Gmail Chrome Extension</p>
+              <h5>Gmail Chrome Extension</h5>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Quizit</p><br/>
+              <h5>Quizit</h5><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Light Tricks</p>
+              <h5>Light Tricks</h5>
             </div>
           </div>
         </div>
-        <Link to="/experience">Experience</Link>
+        <Link to="/experience" className="btn btn-primary">Experience</Link>
       </div>
 
       <div className = "text-center p-5 white">
@@ -64,28 +64,28 @@ function Home() {
         <div className = "row mb-5">
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Lending Loop - Software Developer</p>
+              <h5>Lending Loop - Software Developer</h5>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Bank of Montreal - Infrastructure Engineer</p><br/>
+              <h5>Bank of Montreal - Infrastructure Engineer</h5><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
-              <p>Quinn Dressel Associates - Engineering Student</p>
+              <h5>Quinn Dressel Associates - Engineering Student</h5>
             </div>
           </div>
         </div>
-        <Link to="/experience">Experience</Link>
+        <Link to="/experience" className="btn btn-primary">Experience</Link>
       </div>
 
       <div className = "text-center p-5">
         <h2>Contact Me</h2>
         <p>Questions? or just want to chat? Contact me...</p><br/><br/><br/><br/>
-        <Link to="/contact">Contact Me</Link>
+        <Link to="/contact" className="btn btn-primary">Contact Me</Link>
       </div>
     </div>
   );

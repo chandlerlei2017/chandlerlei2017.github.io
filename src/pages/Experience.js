@@ -5,7 +5,7 @@ function Experience() {
     <div>
       <div className="hero-image">
         <div className="hero-text">
-          <h1>What have I done so far?</h1>
+          <h1>What I've done so far...</h1>
           <p>From personal to academic and professional projects. Here is my coding experience along with some of the work I am most proud of!</p>
         </div>
       </div>
