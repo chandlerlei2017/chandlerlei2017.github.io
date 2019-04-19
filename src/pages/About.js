@@ -3,7 +3,12 @@ import React, { Component } from 'react';
 function About() {
   return (
     <div>
-      <h2>About</h2>
+      <div className="hero-image">
+        <div className="hero-text">
+          <h1>About Me</h1>
+          <p>What I do</p>
+        </div>
+      </div>
     </div>
   );
 }
