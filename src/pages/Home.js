@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Home.scss';
+import image from '../assets/temp_about.jpg'
 
 function Home() {
   return (
@@ -12,20 +13,31 @@ function Home() {
         </div>
       </div>
 
-      <div className = "text-center p-5 white">
+      <div className = "text-center p-5">
         <p>"It does not matter how slowly you go as long as you do not stop." Me: 2018</p>
       </div>
 
-      <div className = "text-center p-5 white">
+      <div className = "p-5 white">
         <h2>About Me</h2>
-        <p>Who am I? What Do I like to do? Learn More...</p><br/><br/><br/><br/>
-        <Link to="/about" className="ml-2 mr-2">About Me</Link>
+        <div className="row">
+          <div className="col-sm-4 p-3">
+            <img src={image} className="img-fluid rounded"/>
+          </div>
+          <div className="col-sm-8 mt-3">
+            <h5 className="mb-3">Name: Chandler Lei</h5>
+            <h5 className="mb-3">University: University of Waterloo</h5>
+            <h5 className="mb-3">Program: Computer Engineering</h5>
+            <h5 className="mb-3">Year: 2A</h5>
+            <p>Want to learn more about me? What I am like? What my passions are? </p>
+            <Link to="/about">About Me</Link>
+          </div>
+        </div>
       </div>
 
       <div className = "text-center p-5">
         <h2>Projects</h2>
         <p>These are my current projects. Learn more...</p>
-        <div className = "row">
+        <div className = "row mb-5">
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3 transition-3d-hover">
               <p>Gmail Chrome Extension</p>
@@ -43,13 +55,13 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link to="/experience" className="ml-2 mr-2">Experience</Link>
+        <Link to="/experience">Experience</Link>
       </div>
 
       <div className = "text-center p-5 white">
         <h2>Work Experience</h2>
         <p>My work expreience. Learn more...</p>
-        <div className = "row">
+        <div className = "row mb-5">
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3 transition-3d-hover">
               <p>Lending Loop - Software Developer</p>
@@ -67,13 +79,13 @@ function Home() {
             </div>
           </div>
         </div>
-        <Link to="/experience" className="ml-2 mr-2">Experience</Link>
+        <Link to="/experience">Experience</Link>
       </div>
 
       <div className = "text-center p-5">
         <h2>Contact Me</h2>
         <p>Questions? or just want to chat? Contact me...</p><br/><br/><br/><br/>
-        <Link to="/contact" className="ml-2 mr-2">Contact Me</Link>
+        <Link to="/contact">Contact Me</Link>
       </div>
     </div>
   );

@@ -5,13 +5,13 @@ function About() {
     <div>
       <div className="hero-image">
         <div className="hero-text">
-          <h1>Student... Thinker... Developer</h1>
-          <p>What I do</p>
+          <h1>Student... Thinker... Developer...</h1>
+          <p>This is me</p>
         </div>
       </div>
 
       <div className="p-5 white">
-        <h2>What drives me?</h2>
+        <h2>Some Interesting facts</h2>
         <p>This will be a paragraph about me. What I'm like etc. Def larger text I reckon</p>
       </div>
       <div className="p-5 green">
