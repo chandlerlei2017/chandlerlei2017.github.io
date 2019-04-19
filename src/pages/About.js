@@ -18,6 +18,7 @@ function About() {
         <h2 className="mb-5"> Some things I'm good at!</h2>
         <div className="row">
           <div className="col-sm-4">
+            <h5>Languages</h5>
             <ul>
               <li>Ruby</li>
               <li>Python</li>
@@ -28,6 +29,7 @@ function About() {
             </ul>
           </div>
           <div className="col-sm-4">
+            <h5>Frameworks</h5>
             <ul>
               <li>Rails</li>
               <li>React</li>
@@ -38,6 +40,7 @@ function About() {
             </ul>
           </div>
           <div className="col-sm-4">
+            <h5>Other Tech</h5>
             <ul>
               <li>MVC</li>
               <li>Algorithims</li>

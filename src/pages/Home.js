@@ -26,18 +26,18 @@ function Home() {
         <div className = "row">
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
+              <p>Gmail Chrome Extension</p>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p><br/>
+              <p>Quizit</p><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form white p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
+              <p>Light Tricks</p>
             </div>
           </div>
         </div>
@@ -49,18 +49,18 @@ function Home() {
         <div className = "row">
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
+              <p>Lending Loop - Software Developer</p>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p><br/>
+              <p>Bank of Montreal - Infrastructure Engineer</p><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
             <div className="form blue p-3 ml-3 mr-3">
-              <p>This is a test to seee how this element will look </p>
+              <p>Quinn Dressel Associates - Engineering Student</p>
             </div>
           </div>
         </div>
