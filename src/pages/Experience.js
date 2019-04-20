@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import lendingloop from "../assets/lending-loop.png"
 import bmo from "../assets/bmo.png"
+import BDChack from "../assets/BDC_hack.jpg"
+import BigData from "../assets/Big_data.jpg"
 
 function Experience() {
   return (
@@ -98,16 +100,28 @@ function Experience() {
       </div>
 
       <div className="p-5">
-        <h2 className="mb-5">Competitions/Hackathons</h2>
+        <h2 className="text-center">Events</h2>
+        <p className="text-center mb-5">Some of the competitions and events I've been to</p>
 
-        <div className="mb-5">
-          <h5>Business Development Bank of Canada Hackathon</h5>
-          <h6>March 2019</h6>
-        </div>
+        <div className="col-sm-10 offset-sm-1">
+          <div className="row">
+            <div className="col-sm-7 mb-5">
+              <h5>Business Development Bank of Canada Hackathon</h5>
+              <h6>March 2019</h6>
+            </div>
+            <div className="col-sm-5 mb-5">
+              <img src={BDChack} className="img-fluid rounded mb-4"/>
+            </div>
+            <div className="col-sm-5 mb-5">
+              <img src={BigData} className="img-fluid rounded mb-4"/>
+            </div>
 
-        <div className="mb-5">
-          <h5>Big Data Challenge</h5>
-          <h6>Februrary 2017</h6>
+
+            <div className="col-sm-6 mb-5">
+              <h5>Big Data Challenge</h5>
+              <h6>Februrary 2017</h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
