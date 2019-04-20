@@ -9,7 +9,7 @@ function Contact() {
           <h1 className="mb-5">Contact Me</h1>
           <p>Email: chandlerlei87@gmail.com</p>
           <p>Phone: 647-974-2196</p>
-          <button className="btn btn-primary-white" id="click">Or...</button>
+          <button className="btn btn-primary-white" id="click" onClick={scroll}>Or...</button>
         </div>
       </div>
       <h3 className="p-5" id="scroll-to">Temporary Stuff....</h3>
@@ -18,12 +18,10 @@ function Contact() {
   );
 }
 
-export default Contact;
+function scroll() {
+  $('html, body').animate({
+      scrollTop: $("#scroll-to").offset().top
+  }, 1000);
+}
 
-$(document).ready(function (){
-  $("#click").click(function (){
-      $('html, body').animate({
-          scrollTop: $("#scroll-to").offset().top
-      }, 1000);
-  });
-});
+export default Contact;

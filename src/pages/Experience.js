@@ -18,7 +18,7 @@ function Experience() {
       <div className="p-5">
         <h2 className="text-center">Work Experience</h2>
         <p className="text-center">These are some of the places I've worked!</p>
-        <div className="col-sm-10 offset-sm-1 mb-5">
+        <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-8 pr-2 mb-5">
              <div className="form p-3 white">
@@ -106,7 +106,7 @@ function Experience() {
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-7 mb-5">
-              <h5>Business Development Bank of Canada Hackathon</h5>
+              <h4>Business Development Bank of Canada Hackathon</h4>
               <h6>March 2019</h6>
             </div>
             <div className="col-sm-5 mb-5">
@@ -118,7 +118,7 @@ function Experience() {
 
 
             <div className="col-sm-6 mb-5">
-              <h5>Big Data Challenge</h5>
+              <h4>Big Data Challenge</h4>
               <h6>Februrary 2017</h6>
             </div>
           </div>

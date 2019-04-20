@@ -5,7 +5,6 @@ import About from './pages/About.js'
 import Contact from './pages/Contact.js'
 import Experience from './pages/Experience.js'
 import Projects from './pages/Projects.js'
-
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Homepage() {
