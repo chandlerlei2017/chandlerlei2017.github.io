@@ -50,10 +50,15 @@ $g-transition-function:                                     ease-in-out !default
   }
 }
 
+.project-card {
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 .form {
   height: 100%;
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .transition-3d-hover {
@@ -91,4 +96,25 @@ $g-transition-function:                                     ease-in-out !default
 .btn-primary-white:hover {
   background: white !important;
   color: black !important;
+}
+
+.ll-colour {
+  color: #492660;
+}
+
+.ll-divider {
+  border-top:  2px solid #492660;
+  transform: rotate(-0.09deg);
+}
+
+.ll-bg {
+  background: #492660 !important;
+  position: relative;
+  height: auto;
+  color: white;
+}
+
+.employment {
+  display: flex;
+  flex-direction: column;
 }
