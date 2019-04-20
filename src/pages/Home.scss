@@ -111,8 +111,10 @@ $g-transition-function:                                     ease-in-out !default
   background: #492660 !important;
   position: relative;
   height: auto;
-  color: white;
-  font-weight: 450;
+
+  h5 {
+    color: white;
+  }
 }
 
 .employment {

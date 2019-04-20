@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import lendingloop from "../assets/lending-loop.png"
+import bmo from "../assets/bmo.png"
 
 function Experience() {
   return (
@@ -13,7 +15,7 @@ function Experience() {
 
       <div className="p-5">
         <h2 className="text-center">Work Experience</h2>
-        <p className="text-center">These are some of the places I worked!</p>
+        <p className="text-center">These are some of the places I've worked!</p>
         <div className="col-sm-10 offset-sm-1 mb-5">
           <div className="row">
             <div className="col-sm-8 pr-2 mb-5">
@@ -31,19 +33,25 @@ function Experience() {
              </div>
             </div>
 
-            <div className="col-sm-4 pl-2 mb-5 employment">
-              <div className="form ll-bg text-center p-2">
-                  <p className="mb-0 white-text">Software Developer</p>
+            <div className="col-sm-4 pl-2 mb-5 employment text-center">
+              <div className="form ll-bg p-2">
+                <h5 className="mb-0">Software Developer</h5>
               </div>
               <div className="form p-3 white">
+                <h6 className="mb-4">January - April 2019</h6>
+                <img src={lendingloop} className="img-fluid rounded mb-4"/>
+                <p>Lending Loop is Canada's first and only regulated peer-to-peer lending marketplace focused on small business.</p>
               </div>
             </div>
 
-            <div className="col-sm-4 pr-2 mb-5 employment">
-              <div className="form ll-bg text-center p-2">
-                  <p className="mb-0 white-text">Infrastructure Engineer</p>
+            <div className="col-sm-4 pr-2 mb-5 employment text-center">
+              <div className="form ll-bg p-2">
+                  <h5 className="mb-0">Infrastructure Engineer</h5>
               </div>
               <div className="form p-3 white">
+                <h6 className="mb-4">May - August 2018</h6>
+                <img src={bmo} className="img-fluid rounded mb-4"/>
+                <p>Serving customers for 200 years and counting, BMO is a highly diversified financial services provider – the 8th largest bank, by assets, in North America.</p>
               </div>
             </div>
 
