@@ -109,6 +109,29 @@ $g-transition-function:                                     ease-in-out !default
 
 .ll-bg {
   background: #492660 !important;
+}
+
+.ll-text {
+  color: #763f98;
+}
+
+.bmo-colour {
+  color: #0079c1;
+}
+
+.bmo-divider {
+  border-top:  2px solid #0079c1;
+  transform: rotate(-0.09deg);
+}
+
+.bmo-bg {
+  background: #0079c1 !important;
+}
+
+.bmo-text {
+  color: #ed1c24 !important;
+}
+.employment-label {
   position: relative;
   height: auto;
 

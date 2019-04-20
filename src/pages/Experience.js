@@ -23,18 +23,18 @@ function Experience() {
                <h3 className="ll-colour">Lending Loop</h3>
                <hr className="ll-divider mb-4"/>
 
-               <h5>What I did there</h5>
+               <h5 className="ll-text">What I did there</h5>
                <p>This will either be a paragraph or a "ul" of my job responsibilities</p>
                <br/><br/><br/><br/>
 
-               <h5>Technologies used</h5>
+               <h5 className="ll-text">Technologies used</h5>
                <p>This will either be a paragraph or a "ul" of the tech I used</p>
                <br/><br/><br/><br/>
              </div>
             </div>
 
             <div className="col-sm-4 pl-2 mb-5 employment text-center">
-              <div className="form ll-bg p-2">
+              <div className="form ll-bg p-2 employment-label">
                 <h5 className="mb-0">Software Developer</h5>
               </div>
               <div className="form p-3 white">
@@ -45,7 +45,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-4 pr-2 mb-5 employment text-center">
-              <div className="form ll-bg p-2">
+              <div className="form bmo-bg p-2 employment-label">
                   <h5 className="mb-0">Infrastructure Engineer</h5>
               </div>
               <div className="form p-3 white">
@@ -57,14 +57,14 @@ function Experience() {
 
             <div className="col-sm-8 pl-2 mb-5">
              <div className="form p-3 white">
-               <h3 className="ll-colour">Bank of Montreal</h3>
-               <hr className="ll-divider mb-4"/>
+               <h3 className="bmo-colour">Bank of Montreal</h3>
+               <hr className="bmo-divider mb-4"/>
 
-               <h5>What I did there</h5>
+               <h5 className="bmo-text">What I did there</h5>
                <p>This will either be a paragraph or a "ul" of my job responsibilities</p>
                <br/><br/><br/><br/>
 
-               <h5>Technologies used</h5>
+               <h5 className="bmo-text">Technologies used</h5>
                <p>This will either be a paragraph or a "ul" of the tech I used</p>
                <br/><br/><br/><br/>
              </div>
