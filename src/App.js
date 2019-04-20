@@ -4,6 +4,7 @@ import Home from './pages/Home.js'
 import About from './pages/About.js'
 import Contact from './pages/Contact.js'
 import Experience from './pages/Experience.js'
+import Projects from './pages/Projects.js'
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -24,8 +25,9 @@ function Homepage() {
           </div>
           <Route exact path="/" component={Home} />
           <Route exact path="/experience" component={Experience} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projects" component={Projects} />
       </Router>
   );
 }

@@ -5,7 +5,7 @@ import './Home.scss';
 function Home() {
   return (
     <div>
-      <div className="hero-image">
+      <div className="hero-image hero-home">
         <div className="hero-text">
           <h1>Chandler Lei</h1>
           <p>Pushing Limits</p>

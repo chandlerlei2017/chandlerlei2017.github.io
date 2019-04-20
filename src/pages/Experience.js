@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function Experience() {
   return (
     <div>
-      <div className="hero-image">
+      <div className="hero-image hero-experience">
         <div className="hero-text">
           <h1>What I've done so far...</h1>
           <p>Here is my coding experience along with some of the work I am most proud of!</p>
@@ -15,13 +15,15 @@ function Experience() {
         <h2 className="mb-5">Work Experience</h2>
 
         <div className="mb-5">
-          <h5>Lending Loop</h5>
+          <h4>Lending Loop</h4>
           <h6>Software Developer</h6>
+          <h6>January - April 2019</h6>
         </div>
 
         <div className="mb-5">
-          <h5>Bank of Montreal</h5>
+          <h4>Bank of Montreal</h4>
           <h6>Infrastructure Engineer</h6>
+          <h6>May - Augutst 2019</h6>
         </div>
       </div>
 
@@ -46,7 +48,7 @@ function Experience() {
             </div>
           </div>
         </div>
-        <Link to="/experience" className="btn btn-primary-blue">Learn More</Link>
+        <Link to="/projects" className="btn btn-primary-blue">Learn More</Link>
       </div>
 
       <div className="p-5 white">
