@@ -13,6 +13,9 @@
   vertical-align: top;
   padding: 1rem;
   border-bottom: 2px solid #F7F7F7;
+
+  -webkit-transition: border 400ms ease, color 400ms ease !important;
+  transition: border 400ms ease, color 400ms ease !important;
 }
 
 .header-link:hover {

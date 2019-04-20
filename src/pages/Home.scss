@@ -37,6 +37,10 @@ $g-transition-function:                                     ease-in-out !default
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/contact_banner.jpg");
 }
 
+.hero-projects {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/projects_banner.jpg");
+}
+
 .white {
   background: #F7F7F7;
   color: black !important;
