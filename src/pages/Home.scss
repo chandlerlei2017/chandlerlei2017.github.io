@@ -151,3 +151,8 @@ $g-transition-function:                                     ease-in-out !default
   display: flex;
   flex-direction: column;
 }
+
+.event-divider {
+  border-top:  2px solid #003853;
+  transform: rotate(-0.09deg);
+}

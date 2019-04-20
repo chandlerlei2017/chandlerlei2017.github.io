@@ -7,6 +7,13 @@ import Experience from './pages/Experience.js'
 import Projects from './pages/Projects.js'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faPhone)
+library.add(faEnvelope)
+
 function Homepage() {
   return (
       <Router>

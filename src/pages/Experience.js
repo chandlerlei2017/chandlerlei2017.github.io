@@ -105,21 +105,29 @@ function Experience() {
 
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
-            <div className="col-sm-7 mb-5">
+            <div className="col-sm-7">
               <h4>Business Development Bank of Canada Hackathon</h4>
               <h6>March 2019</h6>
+              <p>Paragraph the competition, what we did, and what tech we used</p>
             </div>
-            <div className="col-sm-5 mb-5">
-              <img src={BDChack} className="img-fluid rounded mb-4"/>
+
+            <div className="col-sm-5">
+              <img src={BDChack} className="img-fluid rounded"/>
             </div>
-            <div className="col-sm-5 mb-5">
-              <img src={BigData} className="img-fluid rounded mb-4"/>
+
+            <div className="col-sm-12 mt-3 mb-3">
+              <hr className="event-divider"/>
+            </div>
+
+            <div className="col-sm-5">
+              <img src={BigData} className="img-fluid rounded"/>
             </div>
 
 
-            <div className="col-sm-6 mb-5">
+            <div className="col-sm-6">
               <h4>Big Data Challenge</h4>
               <h6>Februrary 2017</h6>
+              <p>Paragraph the competition, what we did, and what tech we used</p>
             </div>
           </div>
         </div>
