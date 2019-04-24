@@ -6,6 +6,7 @@ import Contact from './pages/Contact.js'
 import Experience from './pages/Experience.js'
 import Projects from './pages/Projects.js'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -27,10 +28,10 @@ function Homepage() {
                 </Link>
               </div>
               <div className="col-sm-10 text-right">
-                <Link to="/" className="header-link mr-4">Home</Link>
-                <Link to="/about" className="header-link ml-4 mr-4">About</Link>
-                <Link to="/experience" className="header-link ml-4 mr-4">Experience</Link>
-                <Link to="/contact" className="header-link ml-4">Contact</Link>
+                <NavLink exact to="/" className="header-link mr-4" activeClassName="active">Home</NavLink>
+                <NavLink to="/about" className="header-link ml-4 mr-4" activeClassName="active">About</NavLink>
+                <NavLink to="/experience" className="header-link ml-4 mr-4" activeClassName="active">Experience</NavLink>
+                <NavLink to="/contact" className="header-link ml-4" activeClassName="active">Contact</NavLink>
               </div>
 
               <hr />

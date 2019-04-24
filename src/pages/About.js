@@ -4,7 +4,7 @@ import image from '../assets/temp_about.jpg'
 function About() {
   return (
     <div>
-      <div className = "p-5 white">
+      <div className = "p-5 mt-5 white">
         <div className="row">
           <div className="col-sm-8 mt-3">
             <h2>About Me</h2>
