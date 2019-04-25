@@ -11,8 +11,8 @@ function About() {
             <h5 className="mb-3">Name: Chandler Lei</h5>
             <h5 className="mb-3">University: University of Waterloo</h5>
             <h5 className="mb-3">Program: Computer Engineering</h5>
-            <h5 className="mb-3">Year: 2A</h5>
-            <p>Visit my about page to learn more about my interests and passions. </p>
+            <h5 className="mb-3">Year: 2B</h5>
+            <p>Interesting facts:?</p>
           </div>
           <div className="col-sm-4 p-3">
             <img src={image} className="img-fluid rounded"/>
@@ -22,8 +22,9 @@ function About() {
 
       <div className="p-5">
         <h2>Who am I?</h2>
-        <p>This will be a paragraph about me. What I'm like etc. Def larger text I reckon</p>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <p>
+          This will be a paragraph about me. What I'm like etc...
+        </p>
       </div>
       <div className="p-5 white">
         <h2> Some things I'm good at!</h2>

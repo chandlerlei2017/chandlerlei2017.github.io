@@ -26,12 +26,24 @@ function Experience() {
                <hr className="ll-divider mb-4"/>
 
                <h5 className="ll-text">What I did there</h5>
-               <p>This will either be a paragraph or a "ul" of my job responsibilities</p>
-               <br/><br/><br/><br/>
+               <ul>
+                 <li>Solely implemented new onboarding/signup flow including all views, controllers, validations, tests, and styling</li>
+                 <li>Created API endpoint to communicate with Django app and send emails to specified users</li>
+                 <li>Routinely wrote tests, increasing the total test coverage by around 8%</li>
+                 <li>Implemented large database migrations for database refactoring</li>
+                 <li>Critically solved minor and major bug fixes affecting the core business</li>
+               </ul>
 
                <h5 className="ll-text">Technologies used</h5>
-               <p>This will either be a paragraph or a "ul" of the tech I used</p>
-               <br/><br/><br/><br/>
+               <ul>
+                 <li>Ruby on Rails</li>
+                 <li>PostgreSQL</li>
+                 <li>Salesforce and Restforce API</li>
+                 <li>Heroku</li>
+                 <li>Docker</li>
+                 <li>Bootstrap, JQuery, FontAwesome and other libraries</li>
+                 <li>CircleCI</li>
+               </ul>
              </div>
             </div>
 
@@ -63,12 +75,19 @@ function Experience() {
                <hr className="bmo-divider mb-4"/>
 
                <h5 className="bmo-text">What I did there</h5>
-               <p>This will either be a paragraph or a "ul" of my job responsibilities</p>
-               <br/><br/><br/><br/>
+               <ul>
+                 <li>Increased the functionality of the DataPower system by creating Bash shell scripts for certificate uploading</li>
+                 <li>Deployed project builds on Bamboo and Ansible, allowing for testing and continuous integration</li>
+                 <li>Automated project builds with Ansible YAML playbooks, increasing efficieny of our build process</li>
+               </ul>
 
                <h5 className="bmo-text">Technologies used</h5>
-               <p>This will either be a paragraph or a "ul" of the tech I used</p>
-               <br/><br/><br/><br/>
+               <ul>
+                 <li>Bash Scripts</li>
+                 <li>IBM DataPower</li>
+                 <li>Ansible</li>
+                 <li>Bamboo</li>
+               </ul>
              </div>
             </div>
           </div>
@@ -108,7 +127,17 @@ function Experience() {
             <div className="col-sm-7">
               <h4>Business Development Bank of Canada Hackathon</h4>
               <h6>March 2019</h6>
-              <p>Paragraph the competition, what we did, and what tech we used</p>
+              <p>
+                Our team implemented a web application with a React front-end and Flask back-end that
+                tracked a user's page visits to individual car pages and using attributes from the cars
+                they visited, would recommend various other cars similar to their viewing history using Scikit-learn.
+              </p>
+              <p>
+                Additionally our application allowed users to access a report/overview of features they most looked for
+                in a car and a list of car recommendations generted from this report. The web application was integrated with a
+                mobile application that would be provided to salesmen in a dealership, that could instantly view their client's
+                preferences for cars.
+              </p>
             </div>
 
             <div className="col-sm-5">
@@ -127,7 +156,15 @@ function Experience() {
             <div className="col-sm-6">
               <h4>Big Data Challenge</h4>
               <h6>Februrary 2017</h6>
-              <p>Paragraph the competition, what we did, and what tech we used</p>
+              <p>
+                Our team focused on cancer reasearch when analyzing the provided data set of more than half a million JSON files pertaining to
+                research papers puplished. We filtered the data in python, extracting titles, abstracts, and other important properties of the
+                papers into a master csv data set.
+              </p>
+              <p>
+                The master data set was then analyzed using R to find statistical correlations that were visually represented in the form of
+                tables and graphs
+              </p>
             </div>
           </div>
         </div>
