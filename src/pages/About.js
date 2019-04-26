@@ -23,7 +23,13 @@ function About() {
       <div className="p-5">
         <h2>Who am I?</h2>
         <p>
-          This will be a paragraph about me. What I'm like etc...
+          Hi, I'm Chandler Lei. Yes named, but perhaps not so aptly, after the famous character from Friends.
+          Born in Sweden, Raised in Canada, and of Chinese descent. I traversed the globe by the time I was in kindergarten.
+          Now, I am an aspiriring developer currently studying Computer Engineering in my second year at the University of Waterloo.
+          I am truly a full-stack developer and love coding everything from the most minute design tweaks to database querying and
+          API requests.
+
+          Visit the other pages of this site to learn more about the experience I have gained so far and learn more about me!
         </p>
       </div>
       <div className="p-5 white">
