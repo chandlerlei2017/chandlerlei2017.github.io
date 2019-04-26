@@ -120,10 +120,15 @@ function Experience() {
 
       <div className="p-5">
         <h2 className="text-center">Events</h2>
-        <p className="text-center mb-5">Some of the competitions and events I've been to</p>
+        <p className="text-center mb-0">Some of the competitions and events I've been to</p>
 
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
+
+            <div className="col-sm-12 mt-3 mb-3">
+              <hr className="event-divider"/>
+            </div>
+
             <div className="col-sm-7">
               <h4>Business Development Bank of Canada Hackathon</h4>
               <h6>March 2019</h6>
@@ -132,7 +137,7 @@ function Experience() {
                 tracked a user's page visits to individual car pages and using attributes from the cars
                 they visited, would recommend various other cars similar to their viewing history using Scikit-learn.
               </p>
-              <p>
+              <p className="mb-0">
                 Additionally our application allowed users to access a report/overview of features they most looked for
                 in a car and a list of car recommendations generted from this report. The web application was integrated with a
                 mobile application that would be provided to salesmen in a dealership, that could instantly view their client's
