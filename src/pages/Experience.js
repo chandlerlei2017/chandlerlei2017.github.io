@@ -29,7 +29,7 @@ function Experience() {
                <ul>
                  <li>Solely implemented new onboarding/signup flow including all views, controllers, validations, tests, and styling</li>
                  <li>Created API endpoint to communicate with Django app and send emails to specified users</li>
-                 <li>Routinely wrote tests, increasing the total test coverage by around 8%</li>
+                 <li>Routinely wrote tests, increasing the total test coverage by around 6%</li>
                  <li>Implemented large database migrations for database refactoring</li>
                  <li>Critically solved minor and major bug fixes affecting the core business</li>
                </ul>
@@ -39,10 +39,8 @@ function Experience() {
                  <li>Ruby on Rails</li>
                  <li>PostgreSQL</li>
                  <li>Salesforce and Restforce API</li>
-                 <li>Heroku</li>
-                 <li>Docker</li>
+                 <li>Heroku, Docker, CircleCI</li>
                  <li>Bootstrap, JQuery, FontAwesome and other libraries</li>
-                 <li>CircleCI</li>
                </ul>
              </div>
             </div>
@@ -131,7 +129,7 @@ function Experience() {
 
             <div className="col-sm-7">
               <h4>Business Development Bank of Canada Hackathon</h4>
-              <h6 className="text-right">March 2019</h6>
+              <h6 className="text-right">Winner - March 2019</h6>
               <p>
                 Our team implemented a web application with a React front-end and Flask back-end that
                 tracked a user's page visits to individual car pages and using attributes from the cars
@@ -160,7 +158,7 @@ function Experience() {
 
             <div className="col-sm-6">
               <h4>Big Data Challenge</h4>
-              <h6 className="text-right">Februrary 2017</h6>
+              <h6 className="text-right">Winner - Februrary 2017</h6>
               <p>
                 Our team focused on cancer reasearch when analyzing the provided data set of more than half a million JSON files pertaining to
                 research papers puplished. We filtered the data in python, extracting titles, abstracts, and other important properties of the
