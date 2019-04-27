@@ -8,11 +8,11 @@ function About() {
         <div className="row col-sm-10 offset-sm-1">
           <div className="col-sm-8 mt-3">
             <h2>About Me</h2>
-            <h5 className="mb-3">Name: Chandler Lei</h5>
-            <h5 className="mb-3">University: University of Waterloo</h5>
-            <h5 className="mb-3">Program: Computer Engineering</h5>
-            <h5 className="mb-3">Year: 2B</h5>
-            <p>Interesting facts:?</p>
+            <hr className="event-divider mt-3 mb-3"/>
+            <h5 className="mb-3 black-text">Chandler Lei</h5>
+            <h5 className="mb-3 black-text">University of Waterloo</h5>
+            <h5 className="mb-3 black-text">2B Computer Engineering</h5>
+            <h5 className="mb-3 black-text">Interesting facts?</h5>
           </div>
           <div className="col-sm-4 p-3">
             <img src={image} className="img-fluid rounded"/>
@@ -21,8 +21,8 @@ function About() {
       </div>
 
       <div className="pt-5 pb-5 col-sm-10 offset-sm-1">
-        <h2>Who am I?</h2>
-        <p>
+        <h2 className="mb-4">Who am I?</h2>
+        <p className="description-text">
           Hi, I'm Chandler Lei. Yes named, but perhaps not so aptly, after the famous character from Friends.
           Born in Sweden, Raised in Canada, and of Chinese descent. I traversed the globe by the time I was in kindergarten.
           Now, I am an aspiriring developer currently studying Computer Engineering in my second year at the University of Waterloo.

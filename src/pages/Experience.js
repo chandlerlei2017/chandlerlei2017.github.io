@@ -131,7 +131,7 @@ function Experience() {
 
             <div className="col-sm-7">
               <h4>Business Development Bank of Canada Hackathon</h4>
-              <h6>March 2019</h6>
+              <h6 className="text-right">March 2019</h6>
               <p>
                 Our team implemented a web application with a React front-end and Flask back-end that
                 tracked a user's page visits to individual car pages and using attributes from the cars
@@ -160,7 +160,7 @@ function Experience() {
 
             <div className="col-sm-6">
               <h4>Big Data Challenge</h4>
-              <h6>Februrary 2017</h6>
+              <h6 className="text-right">Februrary 2017</h6>
               <p>
                 Our team focused on cancer reasearch when analyzing the provided data set of more than half a million JSON files pertaining to
                 research papers puplished. We filtered the data in python, extracting titles, abstracts, and other important properties of the
