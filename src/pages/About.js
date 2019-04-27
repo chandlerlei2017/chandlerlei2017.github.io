@@ -35,7 +35,7 @@ function About() {
       <div className="pt-5 pb-5 white">
         <div className="col-sm-10 offset-sm-1">
           <h2> Some things I'm good at!</h2>
-          <h5 className="mb-5">Everyone has their strengths, here are mine...</h5>
+          <h5 className="mb-5 color-grey">Everyone has their strengths, here are mine...</h5>
           <div className="row">
             <div className="col-sm-4">
               <h5>Languages</h5>
