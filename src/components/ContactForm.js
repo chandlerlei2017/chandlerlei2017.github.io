@@ -16,8 +16,23 @@ class ContactForm extends Component {
   }
 
   handleSubmit(event) {
-    alert('name: ' + this.state.name + ' email: ' + this.state.email + ' message: ' + this.state.message);
     event.preventDefault();
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICEID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATEID;
+    const receiverEmail = process.env.REACT_APP_EMAILJS_RECEIVER;
+
+    this.sendEmail(serviceId, templateId, receiverEmail, this.state.email, this.state.name, this.state.subject, this.state.message);
+  }
+
+  sendEmail(serviceId, templateId, receiverEmail, senderEmail, senderName, subject, message) {
+    window.emailjs
+      .send(serviceId, templateId, {
+        "senderSubject": subject,
+        "senderEmail": senderEmail,
+        "senderName": senderName,
+        "senderMessage": message,
+        "myEmail": receiverEmail
+      });
   }
 
   render() {
@@ -27,14 +42,22 @@ class ContactForm extends Component {
           Name:
           <input name="name" type="text" value={this.state.name} onChange={this.handleInputChange} />
         </label>
+        <br/>
         <label>
           Email:
           <input name="email" type="text" value={this.state.email} onChange={this.handleInputChange} />
         </label>
+        <br/>
+        <label>
+          Subject:
+          <input name="subject" type="text" value={this.state.subject} onChange={this.handleInputChange} />
+        </label>
+        <br/>
         <label>
           Message:
           <textarea name="message" value={this.state.message} onChange={this.handleInputChange} />
         </label>
+        <br/>
         <input type="submit" value="Submit" />
       </form>
     );
