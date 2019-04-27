@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ContactForm from '../components/ContactForm'
 
 function Contact() {
   return (
@@ -14,8 +15,10 @@ function Contact() {
           <button className="btn btn-primary-white" id="click" onClick={scroll}>Or...</button>
         </div>
       </div>
-      <h3 className="p-5 col-sm-10 offset-sm-1" id="scroll-to">Send me a message!</h3>
-      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <div className="p-5 col-sm-10 offset-sm-1">
+        <h3 id="scroll-to">Send me a message!</h3>
+        <ContactForm/>
+      </div>
     </div>
   );
 }
