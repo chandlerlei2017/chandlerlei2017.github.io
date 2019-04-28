@@ -17,7 +17,7 @@ function Contact() {
       </div>
       <div className="mt-5 mb-5 col-sm-8 offset-sm-2">
         <h3 id="scroll-to">Send me a message!</h3>
-        <h5 className="mb-5 color-grey">I'll try to get back to you as soon as possible</h5>
+        <h5 className="mb-3 color-grey">I'll try to get back to you as soon as possible</h5>
         <ContactForm/>
       </div>
     </div>

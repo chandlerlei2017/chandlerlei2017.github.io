@@ -56,7 +56,7 @@ class ContactForm extends Component {
           <label>Message</label>
           <textarea name="message" id="message" className="form-control" placeholder="Whatever you like..." value={this.state.message} onChange={this.handleInputChange} required={true}/>
         </div>
-        <input type="submit" value="Submit" className="btn btn-primary-blue"/>
+        <input type="submit" value="Submit" className="btn btn-primary-blue mt-3"/>
       </form>
     );
   }

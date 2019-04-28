@@ -17,7 +17,7 @@ function Experience() {
 
       <div className="p-5">
         <h2 className="text-center">Work Experience</h2>
-        <p className="text-center">These are some of the places I've worked!</p>
+        <h5 className="mb-5 color-grey text-center">These are some of the places I've worked!</h5>
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-8 pr-2 mb-5">
@@ -94,7 +94,7 @@ function Experience() {
 
       <div className = "text-center p-5 white">
         <h2>Projects</h2>
-        <p>These are my current projects. Learn more...</p>
+        <h5 className="mb-5 color-grey">These are my current projects. Learn more...</h5>
         <div className = "row mb-5">
           <div className="col-sm-4">
             <div className="project-card white p-3 ml-3 mr-3 transition-3d-hover">
@@ -118,7 +118,7 @@ function Experience() {
 
       <div className="p-5">
         <h2 className="text-center">Events</h2>
-        <p className="text-center mb-0">Some of the competitions and events I've been to</p>
+        <h5 className="color-grey text-center mb-0">Some of the competitions and events I've been to</h5>
 
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
