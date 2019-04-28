@@ -38,27 +38,25 @@ class ContactForm extends Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
-        <label>
-          Name:
-          <input name="name" type="text" value={this.state.name} onChange={this.handleInputChange} />
-        </label>
-        <br/>
-        <label>
-          Email:
-          <input name="email" type="text" value={this.state.email} onChange={this.handleInputChange} />
-        </label>
-        <br/>
-        <label>
-          Subject:
-          <input name="subject" type="text" value={this.state.subject} onChange={this.handleInputChange} />
-        </label>
-        <br/>
-        <label>
-          Message:
-          <textarea name="message" value={this.state.message} onChange={this.handleInputChange} />
-        </label>
-        <br/>
-        <input type="submit" value="Submit" />
+        <div className="row">
+          <div className="form-group col-sm-6">
+            <label>Name</label>
+            <input name="name" id="name" className="form-control" placeholder="John Doe" type="text" value={this.state.name} onChange={this.handleInputChange} required={true}/>
+          </div>
+          <div className="form-group col-sm-6">
+            <label>Email</label>
+            <input name="email" id="email" className="form-control" placeholder="john.doe@gmail.com" type="email" value={this.state.email} onChange={this.handleInputChange} required={true}/>
+          </div>
+        </div>
+        <div className="form-group">
+          <label>Subject</label>
+          <input name="subject" id = "subject" className="form-control" placeholder="What are you contacting me about?" type="text" value={this.state.subject} onChange={this.handleInputChange} required={true}/>
+        </div>
+        <div className="form-group">
+          <label>Message</label>
+          <textarea name="message" id="message" className="form-control" placeholder="Whatever you like..." value={this.state.message} onChange={this.handleInputChange} required={true}/>
+        </div>
+        <input type="submit" value="Submit" className="btn btn-primary-blue"/>
       </form>
     );
   }

@@ -161,3 +161,11 @@ $g-transition-function:                                     ease-in-out !default
 .color-grey {
   color: #828282;
 }
+
+::placeholder {
+  color:  #CDCDCD !important;
+}
+
+textarea {
+  min-height: 15vh;
+}

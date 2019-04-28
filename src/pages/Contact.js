@@ -15,8 +15,9 @@ function Contact() {
           <button className="btn btn-primary-white" id="click" onClick={scroll}>Or...</button>
         </div>
       </div>
-      <div className="p-5 col-sm-10 offset-sm-1">
+      <div className="mt-5 mb-5 col-sm-8 offset-sm-2">
         <h3 id="scroll-to">Send me a message!</h3>
+        <h5 className="mb-5 color-grey">I'll try to get back to you as soon as possible</h5>
         <ContactForm/>
       </div>
     </div>
