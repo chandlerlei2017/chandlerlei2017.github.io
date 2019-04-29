@@ -196,10 +196,14 @@ textarea {
   transition: opacity 400ms ease !important;
 }
 
-.tinted h5, .tinted p{
+.tinted h3, .tinted p{
   color:white !important;
 }
 
 .tinted:hover .text {
   opacity: 1;
+}
+
+.project-image {
+  height: 360px !important;
 }
