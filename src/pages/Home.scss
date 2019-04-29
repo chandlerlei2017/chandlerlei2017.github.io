@@ -169,3 +169,37 @@ $g-transition-function:                                     ease-in-out !default
 textarea {
   min-height: 15vh;
 }
+
+.vertical-center {
+  padding-top: 60px;
+}
+
+.tinted:hover img{
+  filter: brightness(50%);
+}
+
+.tinted img{
+  -webkit-transition: filter 400ms ease !important;
+  transition: filter 400ms ease !important;
+}
+
+.tinted .text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  position: absolute;
+  opacity: 0;
+  color: white;
+
+  -webkit-transition: opacity 400ms ease !important;
+  transition: opacity 400ms ease !important;
+}
+
+.tinted h5, .tinted p{
+  color:white !important;
+}
+
+.tinted:hover .text {
+  opacity: 1;
+}

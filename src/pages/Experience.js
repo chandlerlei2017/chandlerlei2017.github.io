@@ -4,6 +4,7 @@ import lendingloop from "../assets/lending-loop.png"
 import bmo from "../assets/bmo.png"
 import BDChack from "../assets/BDC_hack.jpg"
 import BigData from "../assets/Big_Data.jpg"
+import LightTricks from "../assets/LightTricks.jpg"
 
 function Experience() {
   return (
@@ -97,19 +98,23 @@ function Experience() {
         <h5 className="mb-5 color-grey">These are my current projects. Learn more...</h5>
         <div className = "row mb-5">
           <div className="col-sm-4">
-            <div className="project-card white p-3 ml-3 mr-3 transition-3d-hover">
+            <div className="project-card white p-3 ml-3 mr-3 tinted">
               <h5>Gmail Chrome Extension</h5>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="project-card white p-3 ml-3 mr-3 transition-3d-hover">
+            <div className="project-card white p-3 ml-3 mr-3 tinted">
               <h5>Quizit</h5><br/>
               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="project-card white p-3 ml-3 mr-3 transition-3d-hover">
-              <h5>Light Tricks</h5>
+            <div className="project-card ml-3 mr-3 tinted">
+              <img src={LightTricks} className="img-fluid rounded"/>
+              <div className="text">
+                <h5>Light Tricks</h5>
+                <p>An Omega2 powered multi-tool using LED lights</p>
+              </div>
             </div>
           </div>
         </div>
@@ -144,7 +149,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-5">
-              <img src={BDChack} className="img-fluid rounded"/>
+              <img src={BDChack} className="img-fluid rounded vertical-center"/>
             </div>
 
             <div className="col-sm-12 mt-3 mb-3">
