@@ -16,12 +16,12 @@ class ContactForm extends Component {
   }
 
   handleSubmit(event) {
-    event.preventDefault();
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICEID;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATEID;
     const receiverEmail = process.env.REACT_APP_EMAILJS_RECEIVER;
 
     this.sendEmail(serviceId, templateId, receiverEmail, this.state.email, this.state.name, this.state.subject, this.state.message);
+    alert('Thank you, your message was sent successfully!');
   }
 
   sendEmail(serviceId, templateId, receiverEmail, senderEmail, senderName, subject, message) {
