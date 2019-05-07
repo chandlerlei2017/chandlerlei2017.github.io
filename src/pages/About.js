@@ -9,10 +9,12 @@ function About() {
           <div className="col-sm-8 mt-3">
             <h2>About Me</h2>
             <hr className="event-divider mt-3 mb-3"/>
-            <h5 className="mb-3 black-text">Chandler Lei</h5>
-            <h5 className="mb-3 black-text">University of Waterloo</h5>
-            <h5 className="mb-3 black-text">2B Computer Engineering</h5>
-            <h5 className="mb-3 black-text">Interesting facts?</h5>
+            <p className="mb-3 black-text">
+              Chandler Lei<br/>
+              University of Waterloo<br/>
+              2B Computer Engineering<br/>
+              Interesting facts?<br/>
+            </p>
           </div>
           <div className="col-sm-4 p-3">
             <img src={image} className="img-fluid rounded"/>
