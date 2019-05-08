@@ -19,7 +19,7 @@ library.add(faEnvelope)
 
 function Homepage() {
   return (
-      <Router basename="personal-site">
+      <Router>
           <div className="header">
             <div className="row text-right m-0">
               <div className="col-sm-2 text-left">
