@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/LightTricks.234ebf18.jpg"
   },
   {
-    "revision": "03710cc91579425335ea",
+    "revision": "7665f6f2ef9bb061b81e",
     "url": "/static/css/main.5b12995f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/Big_data.dc8b7b20.jpg"
   },
   {
-    "revision": "03710cc91579425335ea",
-    "url": "/static/js/main.18bd4c42.chunk.js"
+    "revision": "7665f6f2ef9bb061b81e",
+    "url": "/static/js/main.20116d5a.chunk.js"
   },
   {
     "revision": "0f9d67b4f341cc7f5b3d984bf77d40ad",
@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/static/media/projects_banner.3a8ca60c.jpg"
   },
   {
-    "revision": "3000fbb36c203b9cecc24083e2bcc079",
-    "url": "/static/media/temp_banner.3000fbb3.jpg"
-  },
-  {
     "revision": "3c1dd6742d21f2f35a8981273c41d345",
     "url": "/static/media/experience_banner.3c1dd674.jpg"
   },
   {
-    "revision": "e6e17f3ae1b18ff2bee08354c5f53944",
+    "revision": "3000fbb36c203b9cecc24083e2bcc079",
+    "url": "/static/media/temp_banner.3000fbb3.jpg"
+  },
+  {
+    "revision": "1793d6026f8e7b87edaf454c572bee60",
     "url": "/index.html"
   }
 ];
