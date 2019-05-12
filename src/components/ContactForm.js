@@ -3,7 +3,13 @@ import React, { Component } from 'react';
 class ContactForm extends Component {
   constructor(props) {
     super(props);
-    this.state= {value: ''};
+    this.state= {
+      value: '',
+      name: '',
+      email: '',
+      subject: '',
+      message: ''
+    };
 
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -21,20 +27,16 @@ class ContactForm extends Component {
     const templateId = "contact_me";
     const receiverEmail = "chandlerlei87@gmail.com";
 
-    this.sendEmail(serviceId, templateId, receiverEmail, this.state.email, this.state.name, this.state.subject, this.state.message);
+    window.emailjs.send(serviceId, templateId, {
+      "senderSubject": this.state.subject,
+      "senderEmail": this.state.email,
+      "senderName": this.state.name,
+      "senderMessage": this.state.message,
+      "myEmail": receiverEmail
+    });
+
     alert('Thank you, your message was sent successfully!');
     window.location.reload();
-  }
-
-  sendEmail(serviceId, templateId, receiverEmail, senderEmail, senderName, subject, message) {
-    window.emailjs
-      .send(serviceId, templateId, {
-        "senderSubject": subject,
-        "senderEmail": senderEmail,
-        "senderName": senderName,
-        "senderMessage": message,
-        "myEmail": receiverEmail
-      });
   }
 
   render() {
