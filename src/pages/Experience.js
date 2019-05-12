@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import lendingloop from "../assets/lending-loop.png"
 import bmo from "../assets/bmo.png"
 import BDChack from "../assets/BDC_hack.jpg"
-import BigData from "../assets/Big_Data.jpg"
+import BigData from "../assets/Big_data.jpg"
 import LightTricks from "../assets/LightTricks.jpg"
 import GmailExtension from "../assets/GmailExtension.png"
 import QuizIt from "../assets/QuizIt.png"
