@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/LightTricks.234ebf18.jpg"
   },
   {
-    "revision": "37c1b369236a980a85ed",
+    "revision": "afcd4b13c43ea81e6928",
     "url": "/static/css/main.5b12995f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/Big_data.dc8b7b20.jpg"
   },
   {
-    "revision": "37c1b369236a980a85ed",
-    "url": "/static/js/main.4d232a47.chunk.js"
+    "revision": "afcd4b13c43ea81e6928",
+    "url": "/static/js/main.a11c8ab1.chunk.js"
   },
   {
     "revision": "0f9d67b4f341cc7f5b3d984bf77d40ad",
@@ -48,23 +48,23 @@ self.__precacheManifest = [
     "url": "/static/media/logo.23ac480e.png"
   },
   {
-    "revision": "3000fbb36c203b9cecc24083e2bcc079",
-    "url": "/static/media/temp_banner.3000fbb3.jpg"
-  },
-  {
-    "revision": "3c1dd6742d21f2f35a8981273c41d345",
-    "url": "/static/media/experience_banner.3c1dd674.jpg"
+    "revision": "05df2c9a29d61f0e2bb698d9d8b1b919",
+    "url": "/static/media/contact_banner.05df2c9a.jpg"
   },
   {
     "revision": "3a8ca60c42b78bbcf89c72e5ef4853f9",
     "url": "/static/media/projects_banner.3a8ca60c.jpg"
   },
   {
-    "revision": "05df2c9a29d61f0e2bb698d9d8b1b919",
-    "url": "/static/media/contact_banner.05df2c9a.jpg"
+    "revision": "3c1dd6742d21f2f35a8981273c41d345",
+    "url": "/static/media/experience_banner.3c1dd674.jpg"
   },
   {
-    "revision": "86b182e593601d7a39838ead00f90a74",
+    "revision": "3000fbb36c203b9cecc24083e2bcc079",
+    "url": "/static/media/temp_banner.3000fbb3.jpg"
+  },
+  {
+    "revision": "c84649e3e70a2da096c42899f0bb6972",
     "url": "/index.html"
   }
 ];
