@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/temp_banner.3000fbb3.jpg"
   },
   {
-    "revision": "c84649e3e70a2da096c42899f0bb6972",
+    "revision": "efb2d273c92abfc26d032c42960f68e7",
     "url": "/index.html"
   }
 ];
