@@ -158,7 +158,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-5">
-              <img src={BDChack} className="img-fluid rounded vertical-center"/>
+              <img src={BDChack} className="img-fluid rounded vertical-center form"/>
             </div>
 
             <div className="col-sm-12 mt-3 mb-3">
@@ -166,7 +166,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-5">
-              <img src={BigData} className="img-fluid rounded"/>
+              <img src={BigData} className="img-fluid rounded form"/>
             </div>
 
 

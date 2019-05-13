@@ -17,7 +17,7 @@ function About() {
             </p>
           </div>
           <div className="col-sm-4 p-3">
-            <img src={image} className="img-fluid rounded"/>
+            <img src={image} className="img-fluid rounded form"/>
           </div>
         </div>
       </div>
