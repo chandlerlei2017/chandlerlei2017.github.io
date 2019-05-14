@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as emailjs from 'emailjs-com';
 
 class ContactForm extends Component {
   constructor(props) {
@@ -27,16 +28,19 @@ class ContactForm extends Component {
     const templateId = "contact_me";
     const receiverEmail = "chandlerlei87@gmail.com";
 
-    window.emailjs.send(serviceId, templateId, {
+    emailjs.send(serviceId, templateId, {
       "senderSubject": this.state.subject,
       "senderEmail": this.state.email,
       "senderName": this.state.name,
       "senderMessage": this.state.message,
       "myEmail": receiverEmail
+    }, "user_wDdghMetmRQ48uE9WFERT")
+    .then(function (response) {
+      alert('Thank you, your message was sent successfully!');
+      window.location.reload();
+    }, function (err) {
+      alert('There was an error sending your email, please contact me directly!');
     });
-
-    alert('Thank you, your message was sent successfully!');
-    window.location.reload();
   }
 
   render() {
