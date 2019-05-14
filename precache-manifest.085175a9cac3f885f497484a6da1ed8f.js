@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/LightTricks.234ebf18.jpg"
   },
   {
-    "revision": "314c497d02d8e30962b7",
+    "revision": "41d8f13c2c84d1405bbc",
     "url": "/static/css/main.4da68e0b.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/Big_data.dc8b7b20.jpg"
   },
   {
-    "revision": "314c497d02d8e30962b7",
-    "url": "/static/js/main.9e126d6f.chunk.js"
+    "revision": "41d8f13c2c84d1405bbc",
+    "url": "/static/js/main.6dc6dd75.chunk.js"
   },
   {
     "revision": "0f9d67b4f341cc7f5b3d984bf77d40ad",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/temp_banner.3000fbb3.jpg"
   },
   {
-    "revision": "6e1edcba8d41a568fc5fffb37b0d147a",
+    "revision": "5e9578956d517bb1acc6071017218c64",
     "url": "/index.html"
   }
 ];
