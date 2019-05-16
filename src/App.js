@@ -33,8 +33,8 @@ function Homepage() {
                 <NavLink exact to="/" className="header-link" activeClassName="active">Home</NavLink>
                 <NavLink to="/about" className="header-link ml-4" activeClassName="active">About</NavLink>
                 <NavLink to="/experience" className="header-link ml-4" activeClassName="active">Experience</NavLink>
-                <NavLink to="/contact" className="header-link ml-4" activeClassName="active">Contact</NavLink>
                 <NavLink to="/resume" className="header-link ml-4" activeClassName="active">Resume</NavLink>
+                <NavLink to="/contact" className="header-link ml-4" activeClassName="active">Contact</NavLink>
               </div>
 
               <hr />
