@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ContactForm from '../components/ContactForm'
+import Footer from '../components/Footer'
 
 function Contact() {
   return (
@@ -20,6 +21,7 @@ function Contact() {
         <h5 className="mb-3 color-grey">I'll try to get back to you as soon as possible</h5>
         <ContactForm/>
       </div>
+      <Footer/>
     </div>
   );
 }

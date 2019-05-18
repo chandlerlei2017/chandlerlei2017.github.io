@@ -7,10 +7,11 @@ import BigData from "../assets/Big_data.jpg"
 import LightTricks from "../assets/LightTricks.jpg"
 import GmailExtension from "../assets/GmailExtension.png"
 import QuizIt from "../assets/QuizIt.png"
+import Footer from '../components/Footer'
 
 function Experience() {
   return (
-    <div>
+    <div className="white">
       <div className="hero-image hero-experience">
         <div className="hero-text">
           <h1>What I've done so far...</h1>
@@ -24,7 +25,7 @@ function Experience() {
         <div className="col-sm-10 offset-sm-1">
           <div className="row">
             <div className="col-sm-8 pr-2 mb-5">
-             <div className="form p-3 white">
+             <div className="form p-3 form-white">
                <h3 className="ll-colour">Lending Loop</h3>
                <hr className="ll-divider mb-4"/>
 
@@ -52,7 +53,7 @@ function Experience() {
               <div className="form ll-bg p-2 employment-label">
                 <h5 className="mb-0">Software Developer</h5>
               </div>
-              <div className="form p-3 white">
+              <div className="form p-3 form-white">
                 <h6 className="mb-4">January - April 2019</h6>
                 <img src={lendingloop} className="img-fluid rounded mb-4"/>
                 <p>Lending Loop is Canada's first and only regulated peer-to-peer lending marketplace focused on small business.</p>
@@ -63,7 +64,7 @@ function Experience() {
               <div className="form bmo-bg p-2 employment-label">
                   <h5 className="mb-0">Infrastructure Engineer</h5>
               </div>
-              <div className="form p-3 white">
+              <div className="form p-3 form-white">
                 <h6 className="mb-4">May - August 2018</h6>
                 <img src={bmo} className="img-fluid rounded mb-4"/>
                 <p>Serving customers for 200 years and counting, BMO is a highly diversified financial services provider – the 8th largest bank, by assets, in North America.</p>
@@ -71,7 +72,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-8 pl-2 mb-5">
-             <div className="form p-3 white">
+             <div className="form p-3 form-white">
                <h3 className="bmo-colour">Bank of Montreal</h3>
                <hr className="bmo-divider mb-4"/>
 
@@ -95,7 +96,7 @@ function Experience() {
         </div>
       </div>
 
-      <div className = "text-center p-5 white">
+      <div className = "text-center grey p-5">
         <h2>Projects</h2>
         <h5 className="mb-5 color-grey">These are my current projects. Learn more...</h5>
         <div className = "row mb-5">
@@ -186,6 +187,7 @@ function Experience() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

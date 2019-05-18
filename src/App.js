@@ -13,11 +13,16 @@ import { NavLink } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import logo from './assets/logo.png'
 
 library.add(faPhone)
 library.add(faEnvelope)
+library.add(faGithub)
+library.add(faLinkedin)
+
 
 function Homepage() {
   return (
