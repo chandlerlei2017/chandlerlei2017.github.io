@@ -180,7 +180,7 @@ function Experience() {
               </p>
               <p>
                 The master data set was then analyzed using R to find statistical correlations that were visually represented in the form of
-                tables and graphs
+                tables and graphs.
               </p>
             </div>
           </div>
