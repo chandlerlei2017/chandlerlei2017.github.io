@@ -58,6 +58,7 @@ $g-transition-function:                                     ease-in-out !default
   height: 100%;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  width: 337.1px;
 }
 
 .form {
@@ -234,4 +235,11 @@ textarea {
 
 .footer-icon {
   color: white;
+  -webkit-transition: color 400ms ease !important;
+  transition: color 400ms ease !important;
+}
+
+.footer-icon:hover {
+  color: #828282;
+  text-decoration: none;
 }

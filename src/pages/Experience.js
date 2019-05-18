@@ -101,7 +101,7 @@ function Experience() {
         <h5 className="mb-5 color-grey">These are my current projects. Learn more...</h5>
         <div className = "row mb-5">
           <div className="col-sm-4">
-            <div className="project-card ml-3 mr-3 tinted">
+            <div className="project-card ml-auto mr-auto text-center tinted">
               <img src={GmailExtension} className="img-fluid rounded project-image"/>
               <div className="text">
                 <h3>Gmail Quick View</h3>
@@ -110,7 +110,7 @@ function Experience() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="project-card ml-3 mr-3 tinted">
+            <div className="project-card ml-auto mr-auto text-center tinted">
               <img src={LightTricks} className="img-fluid rounded project-image"/>
               <div className="text">
                 <h3>Light Tricks</h3>
@@ -119,7 +119,7 @@ function Experience() {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="project-card ml-3 mr-3 tinted">
+            <div className="project-card ml-auto mr-auto text-center tinted">
               <img src={QuizIt} className="img-fluid rounded project-image"/>
                 <div className="text">
                   <h3>QuizIt</h3>
@@ -159,7 +159,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-5">
-              <img src={BDChack} className="img-fluid rounded vertical-center form"/>
+              <img src={BDChack} className="img-fluid rounded vertical-center form transition-3d-hover"/>
             </div>
 
             <div className="col-sm-12 mt-3 mb-3">
@@ -167,7 +167,7 @@ function Experience() {
             </div>
 
             <div className="col-sm-5">
-              <img src={BigData} className="img-fluid rounded form"/>
+              <img src={BigData} className="img-fluid rounded form transition-3d-hover"/>
             </div>
 
 
