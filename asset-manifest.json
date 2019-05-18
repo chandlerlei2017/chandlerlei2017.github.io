@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.d8f3683d.chunk.css",
-  "main.js": "/static/js/main.5099641f.chunk.js",
-  "main.js.map": "/static/js/main.5099641f.chunk.js.map",
+  "main.js": "/static/js/main.a8a974e0.chunk.js",
+  "main.js.map": "/static/js/main.a8a974e0.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.6612adb8.chunk.js": "/static/js/2.6612adb8.chunk.js",
   "static/js/2.6612adb8.chunk.js.map": "/static/js/2.6612adb8.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.db217b6c1ee93934cef8cfb42d68d28e.js": "/precache-manifest.db217b6c1ee93934cef8cfb42d68d28e.js",
+  "precache-manifest.24554f5bb887b0b276ea2f7abb2b2f72.js": "/precache-manifest.24554f5bb887b0b276ea2f7abb2b2f72.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.d8f3683d.chunk.css.map": "/static/css/main.d8f3683d.chunk.css.map",
   "static/media/BDC_hack.jpg": "/static/media/BDC_hack.8701dfad.jpg",
@@ -15,8 +15,8 @@
   "static/media/GmailExtension.png": "/static/media/GmailExtension.0f9d67b4.png",
   "static/media/LightTricks.jpg": "/static/media/LightTricks.234ebf18.jpg",
   "static/media/QuizIt.png": "/static/media/QuizIt.60c0cb53.png",
+  "static/media/about_me1.jpg": "/static/media/about_me1.c97b79c8.jpg",
   "static/media/Home.scss": "/static/media/temp_banner.3000fbb3.jpg",
   "static/media/lending-loop.png": "/static/media/lending-loop.df432cd1.png",
-  "static/media/logo.png": "/static/media/logo.23ac480e.png",
-  "static/media/temp_about.jpg": "/static/media/temp_about.d4bbc5de.jpg"
+  "static/media/logo.png": "/static/media/logo.23ac480e.png"
 }

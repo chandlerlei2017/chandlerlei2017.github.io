@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/LightTricks.234ebf18.jpg"
   },
   {
-    "revision": "58e053a00c6f94ad3d12",
+    "revision": "27fed490932ae5cc5cd8",
     "url": "/static/css/main.d8f3683d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/2.6612adb8.chunk.js"
   },
   {
-    "revision": "d4bbc5de65922b046b012664794b7931",
-    "url": "/static/media/temp_about.d4bbc5de.jpg"
+    "revision": "c97b79c88168a670ac70b98398c803a1",
+    "url": "/static/media/about_me1.c97b79c8.jpg"
   },
   {
     "revision": "df432cd143c1994689c78cdb0843162f",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/Big_data.dc8b7b20.jpg"
   },
   {
-    "revision": "58e053a00c6f94ad3d12",
-    "url": "/static/js/main.5099641f.chunk.js"
+    "revision": "27fed490932ae5cc5cd8",
+    "url": "/static/js/main.a8a974e0.chunk.js"
   },
   {
     "revision": "0f9d67b4f341cc7f5b3d984bf77d40ad",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/static/media/logo.23ac480e.png"
   },
   {
-    "revision": "05df2c9a29d61f0e2bb698d9d8b1b919",
-    "url": "/static/media/contact_banner.05df2c9a.jpg"
-  },
-  {
     "revision": "3a8ca60c42b78bbcf89c72e5ef4853f9",
     "url": "/static/media/projects_banner.3a8ca60c.jpg"
+  },
+  {
+    "revision": "05df2c9a29d61f0e2bb698d9d8b1b919",
+    "url": "/static/media/contact_banner.05df2c9a.jpg"
   },
   {
     "revision": "3c1dd6742d21f2f35a8981273c41d345",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/temp_banner.3000fbb3.jpg"
   },
   {
-    "revision": "126ad03302b3228698d98d6b5a5cc97a",
+    "revision": "9777d9b460d5e8ad2e0a0656824428e9",
     "url": "/index.html"
   }
 ];
