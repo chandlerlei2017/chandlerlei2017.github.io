@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../assets/temp_about.jpg'
+import image from '../assets/about_me1.jpg'
 import Footer from '../components/Footer'
 
 function About() {
