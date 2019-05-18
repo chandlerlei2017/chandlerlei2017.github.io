@@ -9,14 +9,16 @@ function About() {
           <div className="col-sm-8 mt-3">
             <h2>About Me</h2>
             <hr className="event-divider mt-3 mb-3"/>
-            <p className="mb-3 black-text">
-              Chandler Lei<br/>
-              University of Waterloo<br/>
-              2B Computer Engineering<br/>
-              Interesting facts?<br/>
-            </p>
+            <div className="mb-3 black-text description-text">
+              <span className="blue-text">Name:</span> Chandler Lei<br/><br/>
+              <span className="blue-text">University:</span> University of Waterloo<br/><br/>
+              <span className="blue-text">Program:</span> 2B Computer Engineering<br/><br/>
+              <span className="blue-text">Status:</span> Looking for an fall 2019 internship<br/><br/>
+              <span className="blue-text">Areas of Interest:</span> Web Development, API Endpoints, <br/>
+              Database Interactions, Machine Learning, Natural Language Processing
+            </div>
           </div>
-          <div className="col-sm-4 p-3">
+          <div className="col-sm-4 p-3 mt-5 pt-4">
             <img src={image} className="img-fluid rounded form"/>
           </div>
         </div>
@@ -44,21 +46,21 @@ function About() {
               <ul>
                 <li>Ruby</li>
                 <li>Python</li>
+                <li>Java</li>
                 <li>Javascript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML/CSS</li>
                 <li>C/C++</li>
               </ul>
             </div>
             <div className="col-sm-4">
               <h5>Frameworks</h5>
               <ul>
-                <li>Rails</li>
-                <li>React</li>
+                <li>Ruby on Rails</li>
+                <li>ReactJS</li>
                 <li>Bootstrap</li>
                 <li>Django</li>
+                <li>Flask</li>
                 <li>Android</li>
-                <li>Docker</li>
               </ul>
             </div>
             <div className="col-sm-4">
