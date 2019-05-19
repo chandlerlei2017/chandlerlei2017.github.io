@@ -14,7 +14,7 @@ function Experience() {
     <div className="white">
       <div className="hero-image hero-experience">
         <div className="hero-text">
-          <h1>What I've done so far...</h1>
+          <h1>What I've done so far</h1>
           <p>Here is my coding experience along with some of the work I am most proud of!</p>
         </div>
       </div>
